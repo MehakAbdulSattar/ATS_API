@@ -26,6 +26,9 @@ class HRController extends Controller
 
         ]);
 
+        //$user->assignRole('HR');
+
+
         $hr=HR::create([
             'user_id' => $user->id,
             'company_name' => $request->company_name,

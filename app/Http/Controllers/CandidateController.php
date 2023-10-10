@@ -36,7 +36,7 @@ class CandidateController extends Controller
             'message' => 'Candidate registered successfully',
             'user' => [
                 'id' => $user->id,
-                'hr_id' => $candidate->id,
+                'candidate_id' => $candidate->id,
                 'name' => $user->name,
                 'email' => $user->email,
                 'phone_number' => $candidate->phone_number,

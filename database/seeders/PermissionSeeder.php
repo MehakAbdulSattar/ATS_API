@@ -14,7 +14,14 @@ class PermissionSeeder extends Seeder
     public function run(): void
     {
         $Candidate_permissions = [];
-        $HR_permissions = [];
+        $HR_permissions = [
+            // 'create_job',
+            // 'update_job',
+            // 'show_job',
+            // 'show_specific_job',
+            // 'delete_job',
+
+        ];
 
         foreach ( $Candidate_permissions as $permission)
         {
